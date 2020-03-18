@@ -12,6 +12,7 @@ function PostListPage({ gqlPostList, ...props }: any) {
   const dispatch = useDispatch();
   return (
     <>
+      {/*<Layout>*/}
       <div className={styles.postsDiv}>
         <Title className={styles.postsTitle}>博文列表</Title>
         <Button
@@ -55,6 +56,7 @@ function PostListPage({ gqlPostList, ...props }: any) {
           )}
         />
       </div>
+     {/* </Layout>*/}
     </>
   );
 }
